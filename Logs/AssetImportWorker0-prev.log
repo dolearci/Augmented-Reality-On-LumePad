@@ -1,0 +1,98 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.2.7f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/dolearci/LumePadTest
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64975
+Successfully changed project path to: /Users/dolearci/LumePadTest
+/Users/dolearci/LumePadTest
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 101.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.7f1 (c53830e277f1)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.2.7f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/dolearci/LumePadTest/Assets
+GfxDevice: creating device client; threaded=0
+2023-05-08 00:19:10.464 Unity[25441:644066] MSI G24C4 preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+2023-05-08 00:19:10.464 Unity[25441:644066] Metal devices available: 1
+2023-05-08 00:19:10.464 Unity[25441:644066] 0: Intel(R) Iris(TM) Plus Graphics (low power)
+2023-05-08 00:19:10.464 Unity[25441:644066] Using device Intel(R) Iris(TM) Plus Graphics (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.2.7f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.2.7f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.2.7f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56441
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.2.7f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002740 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 107.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.985 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.039835 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 93.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.816 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launching external process: /Applications/Unity/Hub/Editor/2020.2.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3427 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.0 MB.
+System memory in use after: 157.2 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3880.
+Total: 2.527772 ms (FindLiveObjects: 0.384720 ms CreateObjectMapping: 0.188545 ms MarkObjects: 1.817808 ms  DeleteObjects: 0.134526 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/ButtonsScript.cs
+  artifactKey: Guid(4a41fb702d8134d50b2a97198c5fcaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ButtonsScript.cs using Guid(4a41fb702d8134d50b2a97198c5fcaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff4eeb9d3ff97ec76328e49e9830013') in 0.324706 seconds
+  Import took 0.343931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001083 seconds.
+  path: Assets/Scripts/ScoringAndTimer.cs
+  artifactKey: Guid(4cd93badee2f24608ab3e868a2162e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScoringAndTimer.cs using Guid(4cd93badee2f24608ab3e868a2162e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766ec6edb5458bcf5ff0ad1a500f6c03') in 0.002553 seconds
+  Import took 0.011471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000570 seconds.
+  path: Assets/Scripts/ArPlacement.cs
+  artifactKey: Guid(d65043fc3241646358b600784e055592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ArPlacement.cs using Guid(d65043fc3241646358b600784e055592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86e7f2c3fdee51ff89ed57165e5c700') in 0.002961 seconds
+  Import took 0.012185 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

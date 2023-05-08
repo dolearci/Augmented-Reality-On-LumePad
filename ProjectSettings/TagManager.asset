@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - ScoreBoardText
+  - TimerSlider
+  - TimerSliderText
+  - ScoreBoard
+  - CalculateButton
+  - 2D3DButton
+  - LeiaDisplay
+  - Camera
+  - Room
+  - BgButton
+  - CameraRig
+  - ARSession
+  - ARSessionOrigin
+  - TableButton
+  - MenuBoard
+  - MenuButton
+  - ShadowButton
+  - Cube
+  - 3DsettingsButton
+  - BaselineSlider
+  - ConvergenceSlider
+  - ConvergenceText
+  - BaselineText
+  - Test13D
+  - Test23D
+  - Test33D
+  - Test12D
+  - Test22D
+  - Test32D
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Room
+  - Water
+  - UI
+  - Cubes
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
